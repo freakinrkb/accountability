@@ -1,8 +1,7 @@
 import { useState, useEffect } from "react";
 import axios from "axios";
 
-const API = "http://localhost:8000";
-
+const API = "https://your-render-url.onrender.com";
 function App() {
   const [user, setUser] = useState(null);
   const [name, setName] = useState("");
